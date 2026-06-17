@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+}
+
+.parallax-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-img {
+  height: 140%; /* Larger than container to allow movement */
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -20%; /* Offset to start in middle */
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* Ensure fixed background for hero stays behind all content */
+.hero-fixed-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}

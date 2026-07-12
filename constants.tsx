@@ -7,7 +7,6 @@ export const CONTACT_INFO = {
   phone2: '+257 372 48 099',
   whatsapp: '254724778099',
   location: 'Watamu opposite Hemingways',
-  poBox: '349 30600-Kapenguria',
   tiktok: 'https://tiktok.com/@thefixersmosaic',
   email: 'info@thefixersmosaic.com'
 };
@@ -27,31 +26,31 @@ export const SERVICES: Service[] = [
     description: 'Breathtaking wildlife encounters and custom safari adventures in Kenya’s finest destinations.',
     icon: 'fa-tree',
     image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=800',
-    hoverImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=800'
+    hoverImage: '/assets/safarihiace.jpeg'
   },
   {
     id: 'transfers',
     title: 'Transfers',
     description: 'Seamless, punctual airport and hotel transfer services designed for stress-free travel.',
     icon: 'fa-plane-arrival',
-    image: 'https://images.unsplash.com/photo-1560856218-014407d0adfe?auto=format&fit=crop&q=80&w=800',
-    hoverImage: 'https://images.unsplash.com/photo-1560856218-014407d0adfe?auto=format&fit=crop&q=80&w=800'
+    image: 'assets/airport.jpg',
+    hoverImage: '/assets/airport.jpg'
   },
   {
     id: 'car-hire',
     title: 'Professional Car Hire',
     description: 'Premium, well-maintained vehicle rentals for city trips, business, or rugged adventures.',
     icon: 'fa-car-side',
-    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800',
-    hoverImage: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=800'
+    image: '/assets/service2.jpeg',
+    hoverImage: '/assets/service2.jpeg',
   },
   {
     id: 'chauffeur-services',
     title: 'Drivers for Hire',
     description: 'Professional, experienced driver-guides to ensure safety and comfort for your journey.',
     icon: 'fa-user-tie',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
-    hoverImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800'
+    image: '/assets/drivers.jpg',
+    hoverImage: '/assets/drivers.jpg'
   },
   {
     id: 'corporate-travel',
@@ -85,7 +84,7 @@ export const FLEET: Vehicle[] = [
     name: 'Safari Hiace',
     type: 'Tour Van',
     capacity: '8-10 Pax',
-    image: 'https://images.unsplash.com/photo-1560856218-014407d0adfe?auto=format&fit=crop&q=80&w=800'
+    image: 'assets/safarihiace.jpeg'
   },
   {
     id: 'business-sedan',
@@ -94,13 +93,13 @@ export const FLEET: Vehicle[] = [
     capacity: '4 Pax',
     image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=800'
   },
-  {
-    id: 'adventure-prado',
-    name: 'Toyota Prado',
-    type: 'Premium SUV',
-    capacity: '5 Pax',
-    image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80&w=800'
-  }
+  // {
+  //   id: 'adventure-prado',
+  //   name: 'Toyota Prado',
+  //   type: 'Premium SUV',
+  //   capacity: '5 Pax',
+  //   image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80&w=800'
+  // }
 ];
 
 export const TESTIMONIALS = [

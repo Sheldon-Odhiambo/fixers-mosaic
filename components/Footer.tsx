@@ -92,9 +92,9 @@ export const Footer: React.FC = () => {
 
           {/* LOCATION IMAGE */}
           <div>
-            <h4 className="text-primary font-bold uppercase tracking-widest text-xs mb-8">
+            {/* <h4 className="text-primary font-bold uppercase tracking-widest text-xs mb-8">
               Our Location
-            </h4>
+            </h4> */}
 
             <div className="rounded-2xl overflow-hidden grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-700 h-32">
               <img

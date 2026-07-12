@@ -17,7 +17,7 @@ export const About: React.FC = () => {
             <h2 className="text-primary font-bold uppercase tracking-[0.2em] text-sm mb-4">The Legacy</h2>
             <h3 className="text-4xl md:text-5xl font-serif text-secondary mb-8 leading-tight">Elevating Kenyan <br /><span className="italic text-primary">Travel Experiences</span></h3>
             <p className="text-secondary/70 text-lg leading-relaxed mb-10 font-light">
-              Founded in Nakuru, The Fixers Mosaic has set the standard for luxury transportation in the Rift Valley. We combine local expertise with world-class service to ensure every journey is safe, comfortable, and memorable.
+              Founded in KItale, The Fixers Mosaic has set the standard for luxury transportation in the Rift Valley. We combine local expertise with world-class service to ensure every journey is safe, comfortable, and memorable.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12">
               <div className="flex items-start gap-4">

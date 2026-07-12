@@ -105,19 +105,19 @@ export const FLEET: Vehicle[] = [
 
 export const TESTIMONIALS = [
   {
-    name: 'John Doe',
+    name: 'Sero Mvuamba',
     role: 'Traveler',
     review: 'Had an amazing experience with the safari package! Everything was perfectly organized.',
     rating: 5
   },
   {
-    name: 'Jane Smith',
+    name: 'Okono Olongo',
     role: 'Business Traveler',
     review: 'Professional drivers and excellent vehicles. Highly recommended for business transfers.',
     rating: 5
   },
   {
-    name: 'Alice Johnson',
+    name: 'Alice Mandela',
     role: 'Tourist',
     review: 'The tailored itinerary was exactly what we needed. Thanks to the team for a great trip.',
     rating: 4
@@ -125,22 +125,23 @@ export const TESTIMONIALS = [
 ];
 
 export const GALLERY_IMAGES = [
-  'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=800'
+   '/assets/Gallery1.jpeg',
+  '/assets/home2.jpeg',
+  '/assets/Gallery2.jpeg',
+  '/assets/home4.jpeg',
+  '/assets/Gallery3.jpeg',
+
 ];
 
 export const HERO_BACKGROUNDS = [
-  'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=2000',
-  'https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&q=80&w=2000',
-  'https://images.unsplash.com/photo-1518709284694-4ed551f0d555?auto=format&fit=crop&q=80&w=2000',
-  'https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?auto=format&fit=crop&q=80&w=2000',
-  'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&q=80&w=2000',
-  'https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&q=80&w=2000',
-  'https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?auto=format&fit=crop&q=80&w=2000'
+  '/assets/home1.jpeg',
+  '/assets/home2.jpeg',
+  '/assets/home3.jpeg',
+  '/assets/home4.jpeg',
+  '/assets/home5.jpeg',
+
+
+  
 ];
 
 export const Logo: React.FC<{ className?: string }> = ({ className }) => (

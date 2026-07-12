@@ -109,7 +109,7 @@ export const Footer: React.FC = () => {
         {/* BOTTOM BAR */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-white/30 text-[10px] uppercase tracking-widest font-bold">
-            &copy; {new Date().getFullYear()} Goodmorning Africa Tours. Excellence in Motion.
+            &copy; {new Date().getFullYear()} The Fixers Mosaic
           </p>
 
           <div className="flex gap-8">

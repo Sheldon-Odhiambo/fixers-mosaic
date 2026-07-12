@@ -6,8 +6,8 @@ export const CONTACT_INFO = {
   phone: '+254 724 778 099',
   phone2: '+257 372 48 099',
   whatsapp: '254724778099',
-  location: 'Watamu opposite Hemingways'
-  poBox: '349, 30600-Kapenguria',
+  location: 'Watamu opposite Hemingways',
+  poBox: '349 30600-Kapenguria',
   tiktok: 'https://tiktok.com/@thefixersmosaic',
   email: 'info@thefixersmosaic.com'
 };
